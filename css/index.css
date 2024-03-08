@@ -1,0 +1,76 @@
+.col.s12.m7 .card.horizontal .card-image img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* 保持图像的宽高比并裁剪多余部分 */
+    border-radius: 50%; /* 圆角 */
+    margin: 10px; /* 调整图像与卡片内容的间距 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+    border: 2px solid #fff; /* 添加边框 */
+    background-color: #fff; /* 添加背景色 */
+    padding: 5px; /* 添加内边距 */
+    left: 50%; /* 居中 */
+    transform: translateX(-50%); /* 居中 */
+    
+    top: 20px; /* 调整图像与卡片内容的间距 */
+  }
+  .col.s12.m7 .card.horizontal .card-stacked .card-content p{
+    margin-top: 10px; /* 调整文本与图像的间距 */
+    font-size: 18px; /* 调整文本大小 */
+    font-weight: bold; /* 加粗文本 */
+    color: #333; /* 文本颜色 */
+    line-height: 1.5; /* 调整行高 */
+    text-align: center; /* 文本居中 */
+    z-index: 0; /* 确保文本在图像之下 */
+  }
+/* styles.css */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+ 
+.jianjie {
+    text-align: center; /* 文本居中 */
+}
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-wrap: wrap
+    }
+  }
+
+  .col.s12.m7 {
+    margin-right: 20px;
+    
+  }
+
+  .dic1 {
+    width: 400px;
+  }
+
+
+  
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.name {
+    margin-right: 20px;
+}
