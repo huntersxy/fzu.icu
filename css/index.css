@@ -27,6 +27,8 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    /*居中*/
+    justify-content: center; /* 水平居中 */
   }
  
 .jianjie {
