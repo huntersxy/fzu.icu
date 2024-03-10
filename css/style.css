@@ -1,0 +1,42 @@
+.logo {
+    left: 20px;
+}
+
+.logo2 {
+    left: 25%;
+}
+
+.div1 {
+    right: 1px;
+}
+
+.main {
+    padding-left: 300px;
+
+}
+
+@media only screen and (max-width : 992px) {
+    .main {
+        padding-left: 0;
+    }
+}
+
+
+    
+
+body:before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .4;
+    z-index: -50;
+    content: "";
+    position: fixed;
+    background: url(https://saas.bk-cdn.com/t/f1e16078-bb12-419d-ad3f-be967f268d40/u/f0896296-9cb3-4e7a-bfaa-44a0c8c681f0/1664613880822/05-%E6%97%A9.jpg) center/cover
+}
+
+.dic2 {
+    opacity: 0;
+    height: 190px;
+}
