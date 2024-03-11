@@ -1,17 +1,13 @@
 .logo {
-    left: 20px;
+    left: 25px;
 }
 
 .logo2 {
     left: 25%;
 }
 
-.div1 {
-    right: 1px;
-}
-
 .main {
-    padding-left: 300px;
+    padding-left: 75px;
 
 }
 
@@ -23,7 +19,7 @@
 
 
     
-
+/* 背景图片 */
 body:before {
     top: 0;
     left: 0;
@@ -36,7 +32,90 @@ body:before {
     background: url(https://saas.bk-cdn.com/t/f1e16078-bb12-419d-ad3f-be967f268d40/u/f0896296-9cb3-4e7a-bfaa-44a0c8c681f0/1664613880822/05-%E6%97%A9.jpg) center/cover
 }
 
-.dic2 {
-    opacity: 0;
-    height: 190px;
+/* 卡片大小 */
+.card_div {
+    width: 400px;
+    left: 100%;
+  }
+
+  /* 文本右置 */
+.text_right{
+    text-align: right;
+}
+
+
+/* 卡片图片 */
+.col.s12.m7 .card-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* 保持图像的宽高比并裁剪多余部分 */
+    border-radius: 50%;
+    /* 圆角 */
+    margin: 20px;
+    /* 调整图像与卡片内容的间距 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* 添加阴影 */
+    border: 2px solid #fff;
+    /* 添加边框 */
+    background-color: #fff;
+    /* 添加背景色 */
+    padding: 2px;
+    /* 添加内边距 */
+    left: 45%;
+    /* 居中 */
+    transform: translateX(-54%);
+    /* 居中 */
+    top: 12%;
+    /* 调整图像与卡片内容的间距 */
+  }
+
+
+  /* 卡片文本 */
+.card-content p {
+   
+    /* 调整文本与图像的间距 */
+    font-size: 125%;
+    /* 调整文本大小 */
+    font-weight: bold;
+    /* 加粗文本 */
+    color: #000000;
+    /* 文本颜色 */
+    line-height: 1.5;
+    /* 调整行高 */
+    text-align: center;
+    /* 文本居中 */
+    z-index: 0;
+    /* 确保文本在图像之下 */
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    /*居中*/
+    justify-content: center;
+    /* 水平居中 */
+  }
+
+
+  
+  .col.s12.m7 {
+    margin-right: 5px;
+  
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+    z-index: 0;
+    clear: left;
+  }
+
+.text{
+    margin-right: 10px;
 }
